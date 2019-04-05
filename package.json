@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "test": "mocha",
-      "start": "node index.js"
+    "test": "mocha ./test/test.js",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +13,8 @@
     "express": "^4.16.4",
     "mocha": "^6.0.2",
     "twitter": "^1.7.1"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
   }
 }
